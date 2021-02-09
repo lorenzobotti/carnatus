@@ -8,7 +8,7 @@ import (
 )
 
 func start() Position {
-	board, _ := FEN("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR")
+	board, _ := FEN("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR")
 	return Position{
 		board: board,
 	}
